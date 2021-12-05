@@ -5,7 +5,7 @@ import Main from './main'
 import CreateForm from './createform'
 import Footer from './footer'
 import TableReport from './tablereport'
-import { hours } from './data';
+import { hours } from '../data';
 
 export default function CookieStandAdmin(props) {
 

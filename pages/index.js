@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import { useState } from 'react'
-import CookieStandAdmin from './cookiestandadmin'
+import CookieStandAdmin from '../components/cookiestandadmin'
+import { useAuth } from '../contexts/auth'
+import useResource from '../hooks/useResource'
 
 export default function Home() {
   const [CookiesInformation, CookiesInformationHandler] = useState([])
